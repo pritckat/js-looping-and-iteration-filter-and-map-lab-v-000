@@ -10,6 +10,7 @@ function driverNamesWithRevenueOver(drivers, amount) {
   return newDrivers.map(function(driver) {
     driver.name;
   });
+  return newDrivers
 }
 
 function exactMatch() {
