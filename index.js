@@ -15,8 +15,8 @@ function exactMatch(drivers, obj) {
   return drivers.filter(function(driver) {
     let same = false;
 
-    for (const key in matcher) {
-      same = driver[key] === matcher[key];
+    for (const key in obj) {
+      same = driver[key] === obj[key];
     }
     return same;
   });
